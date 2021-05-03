@@ -7,10 +7,21 @@
   <ItemGroup>
     <Compile Remove="Migrations\20210424181143_initial.cs" />
     <Compile Remove="Migrations\20210424181143_initial.Designer.cs" />
+    <Compile Remove="Migrations\20210424181824_initial.cs" />
+    <Compile Remove="Migrations\20210424181824_initial.Designer.cs" />
+    <Compile Remove="Migrations\20210503212021_initial.cs" />
+    <Compile Remove="Migrations\20210503212021_initial.Designer.cs" />
+    <Compile Remove="Migrations\20210503212737_initial.cs" />
+    <Compile Remove="Migrations\20210503212737_initial.Designer.cs" />
+    <Compile Remove="Migrations\20210503215408_initial.cs" />
+    <Compile Remove="Migrations\20210503215408_initial.Designer.cs" />
+    <Compile Remove="Migrations\20210503215758_iniil.cs" />
+    <Compile Remove="Migrations\20210503215758_iniil.Designer.cs" />
+    <Compile Remove="Migrations\20210503220315_initial.cs" />
+    <Compile Remove="Migrations\20210503220315_initial.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

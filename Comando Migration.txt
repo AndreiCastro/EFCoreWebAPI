@@ -1,0 +1,11 @@
+As vezes é preciso usar depois do Add o Update-Database para criar as tabelas via code-first
+
+Add, atulizar e Removendo uma migration:
+
+Add-Migration (initial)
+Update-Migration
+Remove-Migration
+
+Script-Migration (script da migrations geradas)
+
+get-help entityframework  (listar comandos)

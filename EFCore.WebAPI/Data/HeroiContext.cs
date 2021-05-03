@@ -18,7 +18,8 @@ namespace EFCore.WebAPI.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=HeroApp;Data Source=ANDREI\SQLEXPRESS");
+            optionsBuilder.UseSqlServer(@"Data Source=ANDREI\SQLEXPRESS; Initial Catalog=HeroApp; Integrated Security=SSPI;");
+            //optionsBuilder.UseSqlServer(@"Server=meuServidor; Database=meuBanco; Trusted_Connection=True;;");
         }
     }
 }
