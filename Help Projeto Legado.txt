@@ -1,0 +1,3 @@
+Se for criar um projeto legado (legado que já existe).
+
+Tem q instalar alguns packges de EntityFrameworkCore
