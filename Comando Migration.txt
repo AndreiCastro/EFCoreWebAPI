@@ -2,6 +2,8 @@ As vezes é preciso usar depois do Add o Update-Database para criar as tabelas v
 
 Add, atulizar e Removendo uma migration:
 
+No Package Manager Console Usar os comandos?
+
 Add-Migration (initial)
 Update-Migration
 Remove-Migration
